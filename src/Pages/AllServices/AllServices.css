@@ -1,0 +1,10 @@
+.allService-bg{
+    background-color: rgba(78, 178, 236, 0.24);
+}
+.card-container{
+    box-shadow:  10px 10px 20px #0a0a0a;
+      transition: 0.3s all ease-in-out;
+}
+.card-container:hover{
+    margin-top:-10px;
+}

@@ -1,0 +1,10 @@
+
+.navlink {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding: 15px 20px;
+  font-size: 18px;
+}
+.navlink:hover {
+  color: #ec5990;
+}

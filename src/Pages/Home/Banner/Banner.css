@@ -1,0 +1,10 @@
+.banner-container{
+  background-color: rgba(42, 177, 255, 0.11);
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.banner-title  span{
+  
+  font-family:serif;
+  font-weight: bold;
+}

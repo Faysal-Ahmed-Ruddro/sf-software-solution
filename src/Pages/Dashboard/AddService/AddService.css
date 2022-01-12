@@ -1,0 +1,99 @@
+.addService-form-bg{
+    background-color: rgba(89, 152, 182, 0.199);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.addService-form-bg form {
+max-width: 500px;
+margin: 0 auto;
+}
+
+.addService-form-bg input, textarea {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid white;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  font-size: 14px;
+
+}
+.addService-form-bg textarea{
+    resize: none;
+}
+
+.addService-form-bg label {
+  line-height: 2;
+  text-align: left;
+  display: block;
+  margin-bottom: 13px;
+  margin-top: 20px;
+  color: white;
+  font-size: 14px;
+  font-weight: 200;
+}
+
+
+.addService-form-bg button {
+  display: block;
+  appearance: none;
+  margin-top: 40px;
+  border: 1px solid #333;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+.addService-form-bg button[type="submit"],
+.addService-form-bg input[type="submit"] {
+  background: #ec5990;
+  color: white;
+  text-transform: uppercase;
+  border: none;
+  margin-top: 40px;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 100;
+  letter-spacing: 5px;
+}
+
+.addService-form-bg button[type="submit"]:hover,
+.addService-form-bg input[type="submit"]:hover {
+  background: #bf1650;
+}
+
+.addService-form-bg button[type="submit"]:active,
+.addService-form-bg input[type="button"]:active,
+.addService-form-bg input[type="submit"]:active {
+  transition: 0.3s all;
+  transform: translateY(3px);
+  border: 1px solid transparent;
+  opacity: 0.8;
+}
+
+.addService-form-bg input:disabled {
+  opacity: 0.4;
+}
+
+.addService-form-bg input[type="button"]:hover {
+  transition: 0.3s all;
+}
+
+.addService-form-bg button[type="submit"],
+.addService-form-bg input[type="button"],
+.addService-form-bg input[type="submit"] {
+  -webkit-appearance: none;
+}
+
+.addService-form-bg button[type="button"] {
+  display: block;
+  appearance: none;
+  background: #333;
+  color: white;
+  border: none;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 4px;
+}

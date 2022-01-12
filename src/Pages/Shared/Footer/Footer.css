@@ -1,0 +1,23 @@
+.footer_bg {
+  background-color: #172b43;
+  height: 50%;
+  background-size: contain;
+  background-position: center;
+}
+.footer_bg .footer_title {
+  text-align: left;
+  color: #fff;
+}
+.footer_bg li {
+  text-align: left;
+  list-style-type: none;
+  color:  gray;
+}
+.footer-social-link  .fab {
+  transition: 0.5s all ease;
+}
+.footer-social-link .fab:hover {
+  background-color: #fff;
+  transform: scale(1.5);
+  border-radius: 10px;
+}

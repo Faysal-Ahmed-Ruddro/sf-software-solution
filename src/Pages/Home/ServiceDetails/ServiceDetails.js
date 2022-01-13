@@ -41,7 +41,6 @@ const ServiceDetails = () => {
        serviceName: service?.serviceName,
        price: service?.price,
      };
-     console.log(orders)
     //  send to the server 
      fetch("http://localhost:8000/orders", {
        method: "POST",

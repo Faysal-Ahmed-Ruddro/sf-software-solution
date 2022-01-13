@@ -6,7 +6,6 @@ const AddService = () => {
 
     const { register, handleSubmit, reset } = useForm();
     const onSubmit = (data) => {
-      console.log(data);
       axios
         .post("http://localhost:8000/services", data)
         .then((res) => {

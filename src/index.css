@@ -12,3 +12,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace, 'Playfair Display', serif;
 }
+
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #cfcfcf; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(236, 89, 144);
+  border-radius: 40px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(211, 44, 105);
+}

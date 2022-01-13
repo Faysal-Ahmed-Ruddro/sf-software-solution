@@ -32,19 +32,19 @@ const Footer = () => {
         </Row>
         <Row>
           <Col xs={12} md={6} lg={4}>
-            <h2 className="footer_title">Dhanmondi Branch:</h2>
+            <h2 className="footer_title">Dhanmondi Branch</h2>
             <li>Plaza AR, House 2, Road 14, Shop 404-405, Dhanmondi, </li>
             <li>Dhaka, Bangladesh </li>
             <li>Cell: +8801709847986 </li>
           </Col>
           <Col xs={12} md={6} lg={4}>
-            <h2 className="footer_title">Gulshan 2 Branch:</h2>
+            <h2 className="footer_title">Gulshan 2 Branch</h2>
             <li>Alam Arcade, Plot 43, 5th Floor, Lift 5, , </li>
             <li>Madani Avenue, North Gulshan, Dhaka 1212, Bangladesh </li>
             <li>Cell: +8801730860680, </li>
           </Col>
           <Col xs={12} md={6} lg={4}>
-            <h2 className="footer_title">Banani 11 Branch:z</h2>
+            <h2 className="footer_title">Banani 11 Branch</h2>
             <li>
               Hakam Foundation, 2nd floor, lift 2, house 98, Road 11, block c,{" "}
             </li>

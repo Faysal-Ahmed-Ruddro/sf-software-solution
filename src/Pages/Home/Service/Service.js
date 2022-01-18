@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 
 const Service = ({service}) => {
     return (
-      <Card className="mx-auto" style={{ width: "80%", height: "550px" }}>
+      <Card className="mx-auto" style={{ width: "80%"}}>
         <div data-aos="fade-in-left" style={{ margin: "20px" }}>
           <Card.Img
             style={{ borderRadius: "20px" }}

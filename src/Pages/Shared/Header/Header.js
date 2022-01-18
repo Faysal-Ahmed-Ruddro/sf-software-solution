@@ -15,7 +15,11 @@ const Header = () => {
     >
       <Container>
         <Navbar.Brand href="#home">
-          <img src="#" alt="Logo" />
+          <h2>
+            <NavLink className="navlink_logo" to="/home">
+              SF-Software-Solution
+            </NavLink>
+          </h2>
         </Navbar.Brand>
         <Navbar.Toggle
           className="text-white"

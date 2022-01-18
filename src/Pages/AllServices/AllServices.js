@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from "react";
 import { Card, Button, Container, Row, Col } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
-import "./AllServices.css"
+import "./AllServices.css";
 
 const AllServices = () => {
   const [services, setServices] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:8000/services")
+    fetch("https://infinite-thicket-64777.herokuapp.com/services")
       .then((res) => res.json())
       .then((data) => setServices(data));
   }, []);

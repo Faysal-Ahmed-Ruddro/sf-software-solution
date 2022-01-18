@@ -6,25 +6,23 @@ import useAuth from "../../Hooks/useAuth";
 import "./ServiceDetails.css";
 
 const ServiceDetails = () => {
-
   const { _id } = useParams();
   const [service, setService] = useState([]);
   const { user } = useAuth();
 
-   const initialInfo = {
-     userName: user.displayName,
-     email: user.email,
-     phone: "",
-     address: " ",
-   };
-   const [orderInfo, setOrderInfo] = useState(initialInfo);
+  const initialInfo = {
+    userName: user.displayName,
+    email: user.email,
+    phone: "",
+    address: " ",
+  };
+  const [orderInfo, setOrderInfo] = useState(initialInfo);
 
   useEffect(() => {
-    fetch(`http://localhost:8000/services/${_id}`)
+    fetch(`https://infinite-thicket-64777.herokuapp.com/services/${_id}`)
       .then((res) => res.json())
       .then((data) => setService(data));
   }, []);
-
 
   const handleOnBlur = (e) => {
     const field = e.target.name;
@@ -36,26 +34,26 @@ const ServiceDetails = () => {
 
   const handleOnSubmit = (e) => {
     e.preventDefault();
-     const orders = {
-       ...orderInfo,
-       serviceName: service?.serviceName,
-       price: service?.price,
-     };
-    //  send to the server 
-     fetch("http://localhost:8000/orders", {
-       method: "POST",
-       headers: { "content-type": "application/json" },
-       body: JSON.stringify(orders),
-     })
-       .then((res) => res.json())
-       .then((data) => {
-         if (data?.acknowledged === true) {
-           swal({
-             text: "Your Order is Done",
-             icon: "success",
-           });
-         }
-       });
+    const orders = {
+      ...orderInfo,
+      serviceName: service?.serviceName,
+      price: service?.price,
+    };
+    //  send to the server
+    fetch("https://infinite-thicket-64777.herokuapp.com/orders", {
+      method: "POST",
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify(orders),
+    })
+      .then((res) => res.json())
+      .then((data) => {
+        if (data?.acknowledged === true) {
+          swal({
+            text: "Your Order is Done",
+            icon: "success",
+          });
+        }
+      });
   };
 
   return (

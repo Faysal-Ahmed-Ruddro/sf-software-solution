@@ -1,0 +1,11 @@
+.cancel-btn{
+    border: 2px solid rgb(236, 89, 144);
+    padding: 5px 15px;
+    color:rgb(236, 89, 144);
+    border-radius: 5px;
+    transition: ease .5s;
+}
+.cancel-btn:hover{
+    background-color: rgb(236, 89, 144);
+    color:#000;
+}

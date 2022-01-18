@@ -1,0 +1,27 @@
+.dashboard-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dashboard {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color:rgb(236, 89, 144);
+}
+.dashboard li {
+    list-style-type: none;
+    padding: 20px;
+    transition: ease 0.5s;
+}
+.dashboard li:hover{
+    background-color: rgb(196, 34, 93);
+}
+.dashboard a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color:black;
+    cursor: pointer;
+}
+.dashboard a:hover{
+    color: #fff;
+}

@@ -1,13 +1,14 @@
-.addService-form-bg{
-    padding-top: 20px;
-    padding-bottom: 20px;
+.makeAdmin-bg {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
-.addService-form-bg form {
-max-width: 500px;
-margin: 0 auto;
+.makeAdmin-bg form {
+  max-width: 500px;
+  margin: 0 auto;
 }
 
-.addService-form-bg input, textarea {
+.makeAdmin-bg input,
+textarea {
   display: block;
   box-sizing: border-box;
   width: 100%;
@@ -16,13 +17,12 @@ margin: 0 auto;
   padding: 10px 15px;
   margin-bottom: 10px;
   font-size: 14px;
-
 }
-.addService-form-bg textarea{
-    resize: none;
+.makeAdmin-bg textarea {
+  resize: none;
 }
 
-.addService-form-bg label {
+.makeAdmin-bg label {
   line-height: 2;
   text-align: left;
   display: block;
@@ -33,8 +33,7 @@ margin: 0 auto;
   font-weight: 200;
 }
 
-
-.addService-form-bg button {
+.makeAdmin-bg button {
   display: block;
   appearance: none;
   margin-top: 40px;
@@ -45,8 +44,8 @@ margin: 0 auto;
   border-radius: 4px;
 }
 
-.addService-form-bg button[type="submit"],
-.addService-form-bg input[type="submit"] {
+.makeAdmin-bg button[type="submit"],
+.makeAdmin-bg input[type="submit"] {
   background: #ec5990;
   color: white;
   text-transform: uppercase;
@@ -58,35 +57,35 @@ margin: 0 auto;
   letter-spacing: 5px;
 }
 
-.addService-form-bg button[type="submit"]:hover,
-.addService-form-bg input[type="submit"]:hover {
+.makeAdmin-bg button[type="submit"]:hover,
+.makeAdmin-bg input[type="submit"]:hover {
   background: #bf1650;
 }
 
-.addService-form-bg button[type="submit"]:active,
-.addService-form-bg input[type="button"]:active,
-.addService-form-bg input[type="submit"]:active {
+.makeAdmin-bg button[type="submit"]:active,
+.makeAdmin-bg input[type="button"]:active,
+.makeAdmin-bg input[type="submit"]:active {
   transition: 0.3s all;
   transform: translateY(3px);
   border: 1px solid transparent;
   opacity: 0.8;
 }
 
-.addService-form-bg input:disabled {
+.makeAdmin-bg input:disabled {
   opacity: 0.4;
 }
 
-.addService-form-bg input[type="button"]:hover {
+.makeAdmin-bg input[type="button"]:hover {
   transition: 0.3s all;
 }
 
-.addService-form-bg button[type="submit"],
-.addService-form-bg input[type="button"],
-.addService-form-bg input[type="submit"] {
+.makeAdmin-bg button[type="submit"],
+.makeAdmin-bg input[type="button"],
+.makeAdmin-bg input[type="submit"] {
   -webkit-appearance: none;
 }
 
-.addService-form-bg button[type="button"] {
+.makeAdmin-bg button[type="button"] {
   display: block;
   appearance: none;
   background: #333;

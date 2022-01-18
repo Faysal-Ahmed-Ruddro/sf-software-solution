@@ -1,9 +1,17 @@
-
 .navlink {
   color: rgb(0, 0, 0);
   text-decoration: none;
   padding: 15px 20px;
   font-size: 18px;
+}
+.navlink_logo {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding: 15px 20px;
+  font-size: 18px;
+}
+.navlink_logo:hover {
+  color: rgb(0, 0, 0);
 }
 .navlink:hover {
   color: #ec5990;

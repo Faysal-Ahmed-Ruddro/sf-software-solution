@@ -8,7 +8,7 @@ import "./Services.css";
 function Services() {
   const [services, setServices] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:8000/services")
+    fetch("https://infinite-thicket-64777.herokuapp.com/services")
       .then((res) => res.json())
       .then((data) => setServices(data));
   }, []);
@@ -16,7 +16,7 @@ function Services() {
     dots: true,
     infinite: false,
     speed: 1000,
-    lazyload:true,
+    lazyload: true,
     slidesToShow: 3,
     slidesToScroll: 2,
     initialSlide: 0,
